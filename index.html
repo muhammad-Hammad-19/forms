@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="form">
+      <h1>Login</h1>
+      <div class="inputs">
+        <input
+          type="email"
+          name="email"
+          id="login_email"
+          placeholder="Email"
+          required
+        />
+        <input
+          type="password"
+          name="password"
+          id="login_password"
+          placeholder="Password"
+          required
+        />
+      </div>
+      <a href="./forget.html">Forget password</a>
+      <div id="btn-login">
+        <button id="btn-login">login</button>
+      </div>
+      <p>dont have your account <a href="./signup.html">Signup</a></p>
+      <div id="main-or">
+        <div id="left"></div>
+        <div id="center">or</div>
+        <div id="rigth"></div>
+      </div>
+    </div>
+    <script src="./login.js"></script>
+  </body>
+</html>

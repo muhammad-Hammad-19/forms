@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forget Password</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="form">
+      <h1>Reset Password</h1>
+      <div class="inputs">
+        <input
+          type="email"
+          name="email"
+          id="email_forget"
+          placeholder="Enter your registered email"
+          required
+        />
+      </div>
+      <div id="btn-login">
+        <button id="forget_btn" type="submit">Send Reset Link</button>
+      </div>
+      <p>Remember your password? <a href="index.html">Login</a></p>
+      <p>Don’t have an account? <a href="signup.html">Create New Account</a></p>
+    </div>
+    <script src="./forget.js"></script>
+  </body>
+</html>

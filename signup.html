@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="./signup.css" />
+  </head>
+  <body>
+    <div class="form">
+      <h1>Signup</h1>
+      <div class="inputs">
+        <input
+          type="text"
+          name="fullname"
+          id="name"
+          placeholder="Full Name"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          id="email_sig"
+          placeholder="Email"
+          required
+        />
+        <input
+          type="password"
+          name="password"
+          id="password_sig"
+          placeholder="Password"
+          required
+        />
+      </div>
+      <div id="btn-login">
+        <button id="signup">signup</button>
+      </div>
+      <p>already have an account? <a href="index.html">Login</a></p>
+      <div id="main-or">
+        <div id="left"></div>
+        <div id="center">or</div>
+        <div id="rigth"></div>
+      </div>
+    </div>
+    <script src="./signup.js"></script>
+  </body>
+</html>
